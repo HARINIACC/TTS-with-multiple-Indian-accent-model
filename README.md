@@ -1,7 +1,7 @@
 # TTS-with-multiple-Indian-accent-model(OFFLINE)
 This project is a Python script that preprocesses text and converts it into speech using a TTS model. The preprocessing ensures better clarity in spoken text by handling specific cases like acronyms and slashes.
 
-Features
+**Features**
 
 Acronym Handling: Acronyms like TP HYD are converted into T-P, H-Y-D for clearer pronunciation.
 
@@ -9,7 +9,7 @@ Slash Handling: Text with slashes, such as A/20, is converted to A slash 20.
 
 Text-to-Speech Conversion: Converts processed text into speech and saves the output as an audio file (output.wav).
 
-Prerequisites
+**Prerequisites**
 
 Ensure you have the following installed:
 
@@ -21,7 +21,7 @@ TTS (for text-to-speech processing)
 
 re (for regular expressions, included in Python's standard library)
 
-Installation
+**Installation**
 
 Install the TTS library using pip:
 
@@ -29,7 +29,7 @@ pip install TTS
 
 Clone or download this repository.
 
-Usage
+**Usage**
 
 Input Text: Provide the text you want to convert to speech. Example:
 
@@ -47,7 +47,7 @@ Processed: Check the card A slash 20 in the T-X-C panel and R-A-M slash B setup.
 
 Audio Output: The speech is saved as output.wav in the current directory.
 
-Code Overview
+**Code Overview**
 
 Key Functions
 
@@ -80,7 +80,7 @@ Example Workflow
 input_text = "Check the card A/20 in the TXC panel and RAM/B setup."
 tts(input_text)
 
-Output
+**Output**
 
 Processed text: Check the card A slash 20 in the T-X-C panel and R-A-M slash B setup.
 
@@ -92,7 +92,7 @@ The script is designed to enhance text clarity for TTS models.
 
 You can extend the preprocessing functions to handle additional text formatting cases.
 
-Troubleshooting
+**Troubleshooting**
 
 ModuleNotFoundError: Ensure you have installed the TTS library using:
 
@@ -100,7 +100,7 @@ pip install TTS
 
 Text not processed correctly: Double-check the regular expressions in the handle_acronyms and handle_slashes functions for edge cases.
 
-Author
+**Author**
 
 Harini
 
